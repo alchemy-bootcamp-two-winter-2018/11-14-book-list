@@ -9,8 +9,10 @@ This week, you and your partner(s) will implement a basic full stack application
     - your frontend code
     - your backend code
 - Make sure you're both contributors to both repos.
+- **It is essential that you create a `grading` branch in both repos before beginning any work.** You will not do any work on this branch, but it will be the target of your PR's for grading.
 - Do your work on a feature branch, ie `display-books`. (The name does **not** need to be the same across repos.)
-- When you're done: create a Pull Request (PR) back to the `master` branch of your frontend or server repo.
+- Merge to master when ready to deploy.
+- When you're done: create a Pull Request (PR) back to the `grading` branch of your frontend or server repo.
 - **In Canvas**
     - submit a link to your deployed frontend repo's latest PR
     - submit a link to your deployed backend repo latest PR
