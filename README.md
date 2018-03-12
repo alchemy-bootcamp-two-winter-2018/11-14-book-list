@@ -26,37 +26,41 @@ This week, you and your partner(s) will implement a basic full stack application
 
 ```sh
 book_app_week_3
-├── book-list-client
-|   ├── .eslintrc.json
-|   ├── .gitignore
-│   ├── index.html
-|   ├── README.md
+├── project-client
 │   ├── scripts
 │   │   ├── models
-│   │   │   └── book.js
+│   │   │   └── thing1.js
+│   │   │   └── thing2.js
 │   │   └── views
-│   │       └── book-view.js
+│   │       └── <thing1>-view.js
+│   │       └── <thing2>-view.js
 │   └── styles
-│       ├── base.css
-│       ├── fonts
-│       │   ├── icomoon.eot
-│       │   ├── icomoon.svg
-│       │   ├── icomoon.ttf
-│       │   └── icomoon.woff
-│       ├── icons.css
-│       ├── layout.css
-│       ├── modules.css
-│       └── reset.css
+│   │   ├── base.css
+│   │   ├── fonts
+│   │   │   ├── icomoon.eot
+│   │   │   ├── icomoon.svg
+│   │   │   ├── icomoon.ttf
+│   │   │   └── icomoon.woff
+│   │   ├── icons.css
+│   │   ├── layout.css
+│   │   ├── modules.css
+│   │   └── reset.css
+│   ├── .eslintrc.json
+│   ├── .gitignore
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── README.md
 └── book-list-server
+    ├── load-db
+    │   └── drop-tables.js
+    │   └── create-tables.js
+    │   └── seed-data.js
+    │   └── books.json
     ├── .env
     ├── .eslintrc.json
     ├── .gitignore
     ├── db-client.js
-│   ├── load-db
-│   │   └── drop-tables.js
-│   │   └── create-tables.js
-│   │   └── seed-data.js
-│   │   └── books.json
     ├── package-lock.json
     ├── package.json
     ├── README.md
