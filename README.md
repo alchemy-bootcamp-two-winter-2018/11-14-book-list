@@ -8,6 +8,7 @@ This week, you and your partner(s) will implement a basic full stack application
 - You and your pair should create a GH Organization with two repos: 
     - your frontend code
     - your backend code
+- Org name: `<partner-1-initials>-<partner-2-initials>-book-list`
 - Make sure you're both contributors to both repos.
 - **It is essential that you create a `grading` branch in both repos before beginning any work.** You will not do any work on this branch, but it will be the target of your PR's for grading.
 - Do your work on a feature branch, ie `display-books`. (The name does **not** need to be the same across repos.)
