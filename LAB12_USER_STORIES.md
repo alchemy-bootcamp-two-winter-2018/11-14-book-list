@@ -88,11 +88,12 @@ Add functionality to the book list application for viewing a single book's detai
 *3. As a user, I want my booklist to be a mobile-friendly single-page application so that I can view it on my mobile device.*
 
 - Create a Controller file called `app.js` and add the following endpoints:
-  - `/` - List View: Books by `title` and `author` with the `image_url` displaying a rendered image of the book
+  - `/home` - List View: Books by `title` and `author` with the `image_url` displaying a rendered image of the book
   - `/books/:id` - Detail View of one complete book record
   - `/books/new` - Form View that will allow the user to enter a new record into the DB
     - Your form should take the following inputs: `title`, `author`, `isbn`, `image_url`, and `description`
     - On Submit: this form should `POST` a new record to the `/api/v1/books` route on the backend
+  - add a general redirect to home, via `page('*', () => page.redirect('/home'));`
 - Redeploy your application.
 
 *4. As a user, I want my application to be clean and free of visual distractions so that I can view my books without other content cluttering the viewport.*
